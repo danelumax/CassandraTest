@@ -17,10 +17,10 @@ public class BOKey implements Serializable{
 	private String period;
 	@KeyColumn(keyPart = KeyPart.CLUSTERING, ordinal = 1)
 	private String messageid;
-	@KeyColumn(keyPart = KeyPart.CLUSTERING, ordinal = 2)
-	private String orderno;
-	@KeyColumn(keyPart = KeyPart.CLUSTERING, ordinal = 3)
-	private String caskey;
+//	@KeyColumn(keyPart = KeyPart.CLUSTERING, ordinal = 2)
+//	private String orderno;
+//	@KeyColumn(keyPart = KeyPart.CLUSTERING, ordinal = 3)
+//	private String caskey;
 	
 	public String getMerchantid() {
 		return merchantid;
@@ -46,17 +46,17 @@ public class BOKey implements Serializable{
 	public void setMessageid(String messageid) {
 		this.messageid = messageid;
 	}
-	public String getOrderno() {
-		return orderno;
-	}
-	public void setOrderno(String orderno) {
-		this.orderno = orderno;
-	}
-	public String getCaskey() {
-		return caskey;
-	}
-	public void setCaskey(String caskey) {
-		this.caskey = caskey;
-	}
+//	public String getOrderno() {
+//		return orderno;
+//	}
+//	public void setOrderno(String orderno) {
+//		this.orderno = orderno;
+//	}
+//	public String getCaskey() {
+//		return caskey;
+//	}
+//	public void setCaskey(String caskey) {
+//		this.caskey = caskey;
+//	}
 	
 }

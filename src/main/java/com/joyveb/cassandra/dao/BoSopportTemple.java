@@ -17,13 +17,14 @@ import org.springframework.stereotype.Repository;
 import com.joyveb.cassandra.bean.BOKey;
 import com.joyveb.cassandra.bean.BoBean;
 
-@Repository
+//@Repository
 public class BoSopportTemple implements CassandraRepository<BoBean, BOKey> {
 
 	@Autowired
 	private CassandraOperations cassandraTemplate;
 	@Resource(name = "cassandra-converter")
 	private MappingCassandraConverter converter;
+	
 	private CassandraEntityInformation<BoBean, BOKey> entityInformation;
 
 	@PostConstruct

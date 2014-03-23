@@ -11,7 +11,7 @@ import com.joyveb.cassandra.bean.BOKey;
 import com.joyveb.cassandra.bean.BoBean;
 import com.joyveb.cassandra.dao.BoSopportTemple;
 
-@Component
+//@Component
 public class BoDaoCassandraTempleUse {
 
 	@Autowired
